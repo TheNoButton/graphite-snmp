@@ -1,0 +1,11 @@
+
+== src/smp-statsd.py ==
+
+Fetches SNMP metrics, pumps them to statsd at gauges
+
+Current example is for Squid3
+
+Intended to be run as a frequent cron:
+# m h  dom mon dow   command
+  * *  *   *   *     python ~/cron/snmp-statsd.py
+
