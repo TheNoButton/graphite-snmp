@@ -1,5 +1,4 @@
-
-== src/smp-statsd.py ==
+== src/snmp-statsd.py ==
 
 Fetches SNMP metrics, pumps them to statsd at gauges
 
