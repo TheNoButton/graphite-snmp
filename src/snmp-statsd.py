@@ -112,5 +112,5 @@ for config in snmpConfig:
     statsdSocket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     for record in records:
         #TO DO:  build payload upto MTU, then send
-        print "DEBUG:", record
+        #print "DEBUG:", record
         statsdSocket.sendto(record,statsdAddr)
